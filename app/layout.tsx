@@ -15,20 +15,6 @@ const geistMono = Geist_Mono({
 });
 
 
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-      <GoogleAnalytics gaId="G-Q9X3P2G93S" />
-    </html>
-  )
-}
-
 
 export const metadata: Metadata = {
   title: {
@@ -51,6 +37,7 @@ export default function RootLayout({
       >
         {children}
         <Analytics />
+        <GoogleAnalytics gaId="G-Q9X3P2G93S" />
       </body>
     </html>
   );
