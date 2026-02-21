@@ -1,6 +1,14 @@
 import { MetadataRoute } from 'next'
+import { PRODUCTS } from './lib/products'
  
 export default function sitemap(): MetadataRoute.Sitemap {
+  const productUrls = PRODUCTS.map((product) => ({
+    url: `https://vantedge.com/reviews/${product.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }))
+
   return [
     {
       url: 'https://vantedge.com', // Replace with your actual domain
@@ -8,6 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
    },
-    // You can add more static routes here, or fetch dynamic routes from a database
+    ...productUrls,
   ]
 }

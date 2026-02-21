@@ -1,23 +1,5 @@
 import { ProductCard } from "./components/ProductCard";
-
-// Mock data - eventually this would come from a CMS or database
-const PRODUCTS = [
-  {
-    title: "SaaS Tool Alpha",
-    description: "The best all-in-one solution for project management in 2024.",
-    href: "/reviews/saas-tool-alpha",
-  },
-  {
-    title: "Gadget Pro X",
-    description: "A comprehensive look at the features that make this gadget stand out.",
-    href: "/reviews/gadget-pro-x",
-  },
-  {
-    title: "Hosting Service Y",
-    description: "Speed tests and uptime monitoring results for this popular host.",
-    href: "/reviews/hosting-service-y",
-  },
-];
+import { PRODUCTS } from "./lib/products";
 
 export default function Home() {
   return (
