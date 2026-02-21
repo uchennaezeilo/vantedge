@@ -1,4 +1,23 @@
-import Image from "next/image";
+import { ProductCard } from "./components/ProductCard";
+
+// Mock data - eventually this would come from a CMS or database
+const PRODUCTS = [
+  {
+    title: "SaaS Tool Alpha",
+    description: "The best all-in-one solution for project management in 2024.",
+    href: "/reviews/saas-tool-alpha",
+  },
+  {
+    title: "Gadget Pro X",
+    description: "A comprehensive look at the features that make this gadget stand out.",
+    href: "/reviews/gadget-pro-x",
+  },
+  {
+    title: "Hosting Service Y",
+    description: "Speed tests and uptime monitoring results for this popular host.",
+    href: "/reviews/hosting-service-y",
+  },
+];
 
 export default function Home() {
   return (
@@ -36,49 +55,16 @@ export default function Home() {
         <section className="w-full max-w-5xl px-6 py-10">
           <h2 className="text-2xl font-semibold mb-6">Top Picks This Month</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Card 1 */}
-            <div className="border border-zinc-200 dark:border-zinc-800 rounded-lg p-6 bg-white dark:bg-zinc-900 hover:shadow-lg transition-shadow">
-              <div className="h-40 bg-zinc-100 dark:bg-zinc-800 rounded mb-4 flex items-center justify-center text-zinc-400">
-                Product Image
-              </div>
-              <h3 className="text-xl font-bold mb-2">SaaS Tool Alpha</h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
-                The best all-in-one solution for project management in 2024.
-              </p>
-              <a href="#" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
-                Read Review &rarr;
-              </a>
-            </div>
-
-            {/* Card 2 */}
-            <div className="border border-zinc-200 dark:border-zinc-800 rounded-lg p-6 bg-white dark:bg-zinc-900 hover:shadow-lg transition-shadow">
-              <div className="h-40 bg-zinc-100 dark:bg-zinc-800 rounded mb-4 flex items-center justify-center text-zinc-400">
-                Product Image
-              </div>
-              <h3 className="text-xl font-bold mb-2">Gadget Pro X</h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
-                A comprehensive look at the features that make this gadget stand out.
-              </p>
-              <a href="#" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
-                Read Review &rarr;
-              </a>
-            </div>
-
-            {/* Card 3 */}
-            <div className="border border-zinc-200 dark:border-zinc-800 rounded-lg p-6 bg-white dark:bg-zinc-900 hover:shadow-lg transition-shadow">
-              <div className="h-40 bg-zinc-100 dark:bg-zinc-800 rounded mb-4 flex items-center justify-center text-zinc-400">
-                Product Image
-              </div>
-              <h3 className="text-xl font-bold mb-2">Hosting Service Y</h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
-                Speed tests and uptime monitoring results for this popular host.
-              </p>
-              <a href="#" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
-                Read Review &rarr;
-              </a>
-            </div>
+            {PRODUCTS.map((product) => (
+              <ProductCard
+                key={product.title}
+                title={product.title}
+                description={product.description}
+                href={product.href}
+              />
+            ))}
           </div>
         </section>
       </main>
     </div>
-  );}
+  );
