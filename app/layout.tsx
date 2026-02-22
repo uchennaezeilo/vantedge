@@ -4,6 +4,10 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from '@next/third-parties/google'
 
+
+
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -17,12 +21,21 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vantedge.uk"),
   title: {
     default: "Vantedge | Expert Product Reviews & Deals",
     template: "%s | Vantedge",
   },
   description: "Discover the best products and exclusive deals. Unbiased reviews and guides to help you make the right purchase.",
   robots: "index, follow",
+  openGraph: {
+    title: "Vantedge",
+    description: "Technology and AI Solutions",
+    url: "https://vantedge.uk",
+    siteName: "Vantedge",
+    locale: "en_GB",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
