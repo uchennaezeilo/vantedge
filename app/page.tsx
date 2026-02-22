@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ProductCard } from "./components/ProductCard";
 import { PRODUCTS } from "./lib/products";
 
@@ -48,6 +49,22 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <footer className="w-full border-t border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black py-8">
+        <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <div className="text-sm text-zinc-500">
+            &copy; {new Date().getFullYear()} Vantedge. All rights reserved.
+          </div>
+          <nav className="flex gap-6 text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            <Link href="/privacy-policy" className="hover:text-black dark:hover:text-white">
+              Privacy Policy
+            </Link>
+            <Link href="/contact" className="hover:text-black dark:hover:text-white">
+              Contact Us
+            </Link>
+          </nav>
+        </div>
+      </footer>
     </div>
   );
 }
