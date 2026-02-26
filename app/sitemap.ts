@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: 'https://vantedge.com', // Replace with your actual domain
+      url: 'https://vantedge.uk', 
      lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1,

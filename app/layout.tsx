@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from '@next/third-parties/google'
+import CookieBanner from './components/CookieBanner';
 
 
 <script
@@ -59,6 +60,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <CookieBanner />
         <Analytics />
         <GoogleAnalytics gaId="G-Q9X3P2G93S" />
       </body>
