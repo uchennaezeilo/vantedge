@@ -66,6 +66,7 @@ export default function RootLayout({
         mode: 'c15t',
         backendURL: '/api/c15t',
         consentCategories: ['necessary', 'marketing', 'measurement','functionality'], //Specify which consent categories to show in the banner.
+        consentCategories: ['necessary', 'marketing', 'statistics', 'preferences'], //Specify which consent categories to show in the banner.
         ignoreGeoLocation: false, // Useful for development to always view the banner.
           
       }}>
