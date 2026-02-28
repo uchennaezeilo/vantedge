@@ -7,17 +7,6 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import { ConsentManagerDialog, ConsentManagerProvider, CookieBanner } from '@c15t/nextjs'
 
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      name: "Vantedge",
-      url: "https://vantedge.uk",
-    }),
-  }}
-/>
 
 
 const geistSans = Geist({
@@ -61,26 +50,24 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Vantedge",
+              url: "https://vantedge.uk",
+            }),
+          }}
+        />
         <ConsentManagerProvider
       options={{
         mode: 'c15t',
         backendURL: '/api/c15t',
         consentCategories: ['necessary', 'marketing'], // Optional: Specify which consent categories to show in the banner.
-        ignoreGeoLocation: true, // Useful for development to always view the banner.
-        legalLinks: {
-          privacyPolicy: {
-          href: '/privacy',
-          label: 'Privacy Policy',
-          },
-          cookiePolicy: {
-          href: '/cookies',
-          label: 'Cookie Policy',
-          },
-          termsOfService: {
-          href: '/terms',
-          label: 'Terms of Service',
-        },
-      },
+        ignoreGeoLocation: false, // Useful for development to always view the banner.
+          
       }}>
         <CookieBanner />
         <ConsentManagerDialog />
