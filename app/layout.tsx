@@ -3,10 +3,20 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from '@next/third-parties/google'
-//import CookieBanner from './components/CookieBanner';
-import { ConsentManagerDialog, ConsentManagerProvider, CookieBanner } from '@c15t/nextjs'
+import CookieBanner from './components/CookieBanner';
 
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Vantedge",
+      url: "https://vantedge.uk",
+    }),
+  }}
+/>
 
 
 const geistSans = Geist({
@@ -42,39 +52,17 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode; 
+  children: React.ReactNode;
 }>) {
-  const consentOptions = {} as any;
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Vantedge",
-              url: "https://vantedge.uk",
-            }),
-          }}
-        />
-        <ConsentManagerProvider
-      options={{
-        mode: 'c15t',
-        backendURL: '/api/c15t',
-        consentCategories: ['necessary', 'marketing', 'measurement','functionality'], //Specify which consent categories to show in the banner.
-        ignoreGeoLocation: false, // Useful for development to always view the banner.
-          
-      }}>
-        <CookieBanner />
-        <ConsentManagerDialog />
         {children}
+        <CookieBanner />
         <Analytics />
         <GoogleAnalytics gaId="G-Q9X3P2G93S" />
-        </ConsentManagerProvider>
       </body>
     </html>
   );
