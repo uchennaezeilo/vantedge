@@ -3,7 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from '@next/third-parties/google'
-import CookieBanner from './components/CookieBanner';
+//import CookieBanner from './components/CookieBanner';
+import { ConsentManagerDialog, ConsentManagerProvider, CookieBanner } from '@c15t/nextjs'
 
 
 <script
@@ -52,17 +53,27 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode; 
 }>) {
+  const consentOptions = {} as any;
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ConsentManagerProvider
+      options={{
+        mode: 'c15t',
+        backendURL: '/api/c15t',
+        consentCategories: ['necessary', 'marketing'], // Optional: Specify which consent categories to show in the banner.
+        ignoreGeoLocation: true, // Useful for development to always view the banner.
+      }}>
         <CookieBanner />
+        <ConsentManagerDialog />
+        {children}
         <Analytics />
         <GoogleAnalytics gaId="G-Q9X3P2G93S" />
+        </ConsentManagerProvider>
       </body>
     </html>
   );
