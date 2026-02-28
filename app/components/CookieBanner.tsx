@@ -1,102 +1,56 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { getConsent, setConsent } from '../lib/consent';
+import ConsentModal from './ConsentModal';
 
 export default function CookieBanner() {
   const [showBanner, setShowBanner] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    // Check if user has already made a choice
-    const consent = localStorage.getItem('cookieConsent');
-    if (consent === null) {
+    if (!getConsent()) {
       setShowBanner(true);
     }
   }, []);
 
-  const handleAccept = () => {
-    localStorage.setItem('cookieConsent', 'granted');
+  const acceptAll = () => {
+    setConsent({ analytics: true, marketing: true });
     setShowBanner(false);
-    // Here you would typically initialize Google Analytics
-    // if (typeof window !== 'undefined' && window.gtag) {
-    //   window.gtag('consent', 'update', { ... });
-    // }
+    window.location.reload();
   };
 
-  const handleDecline = () => {
-    localStorage.setItem('cookieConsent', 'denied');
+  const rejectAll = () => {
+    setConsent({ analytics: false, marketing: false });
     setShowBanner(false);
   };
 
   if (!showBanner) return null;
 
   return (
-    <div style={styles.banner}>
-      <div style={styles.content}>
-        <p style={styles.text}>
-          We use cookies to analyze website traffic and optimize your website experience. 
-          By accepting our use of cookies, your data will be aggregated with all other user data.
-        </p>
+    <>
+      <div className="fixed bottom-0 left-0 right-0 bg-black text-white p-4 z-50 text-sm">
+        We use cookies for analytics and marketing to improve your experience.
+        <div className="mt-2 space-x-3">
+          <button onClick={acceptAll} className="underline">Accept All</button>
+          <button onClick={rejectAll} className="underline">Reject All</button>
+          <button onClick={() => setShowModal(true)} className="underline">
+            Manage Preferences
+          </button>
+        </div>
       </div>
-      <div style={styles.actions}>
-        <button onClick={handleDecline} style={styles.declineButton}>
-          Decline
-        </button>
-        <button onClick={handleAccept} style={styles.acceptButton}>
-          Accept
-        </button>
-      </div>
-    </div>
+
+      {showModal && (
+        <ConsentModal
+          close={() => setShowModal(false)}
+          save={(settings) => {
+            setConsent(settings);
+            setShowBanner(false);
+            setShowModal(false);
+            window.location.reload();
+          }}
+        />
+      )}
+    </>
   );
 }
-
-const styles = {
-  banner: {
-    position: 'fixed' as const,
-    bottom: 0,
-    left: 0,
-    right: 0,
-    backgroundColor: '#ffffff',
-    borderTop: '1px solid #e5e7eb',
-    padding: '1rem',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    boxShadow: '0 -4px 6px -1px rgba(0, 0, 0, 0.1)',
-    zIndex: 100,
-    flexWrap: 'wrap' as const,
-    gap: '1rem',
-  },
-  content: {
-    maxWidth: '800px',
-  },
-  text: {
-    margin: 0,
-    fontSize: '0.9rem',
-    color: '#374151',
-    lineHeight: '1.5',
-  },
-  actions: {
-    display: 'flex',
-    gap: '0.5rem',
-  },
-  acceptButton: {
-    padding: '0.5rem 1rem',
-    backgroundColor: '#000000',
-    color: '#ffffff',
-    border: 'none',
-    borderRadius: '0.375rem',
-    cursor: 'pointer',
-    fontSize: '0.875rem',
-    fontWeight: 600,
-  },
-  declineButton: {
-    padding: '0.5rem 1rem',
-    backgroundColor: 'transparent',
-    color: '#374151',
-    border: '1px solid #d1d5db',
-    borderRadius: '0.375rem',
-    cursor: 'pointer',
-    fontSize: '0.875rem',
-    fontWeight: 600,
-  },
-};
