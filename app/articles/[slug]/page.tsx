@@ -86,9 +86,9 @@ Use these tools to complement your healthy eating: for example, filling an air-f
   
 };
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
-  const slug = params.slug;
-  const article = ARTICLES_DATA[slug];
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+   const { slug } = await params;
+   const article = ARTICLES_DATA[slug];
 
   // If the article doesn't exist in our data, show a 404 page
   // For this demo, if the slug isn't found, we'll show a generic placeholder so links work.
