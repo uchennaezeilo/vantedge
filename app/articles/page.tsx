@@ -1,64 +1,5 @@
 import Link from "next/link";
-
-const ARTICLES = [
-
-  {
-    id: 1,
-    title: "The Future of AI in 2024",
-    excerpt: "Explore the emerging trends and technologies shaping the artificial intelligence landscape this year.",
-    category: "Technology",
-    date: "October 15, 2023",
-    slug: "future-of-ai-2024",
-  },
-  {
-    id: 2,
-    title: "Top 10 Productivity Tools for Remote Teams",
-    excerpt: "Boost your team's efficiency with these essential software solutions designed for remote collaboration.",
-    category: "Business",
-    date: "November 2, 2023",
-    slug: "top-10-productivity-tools",
-  },
-  {
-    id: 3,
-    title: "Understanding Quantum Computing",
-    excerpt: "A beginner-friendly guide to the complex world of quantum mechanics and computing power.",
-    category: "Science",
-    date: "November 20, 2023",
-    slug: "understanding-quantum-computing",
-  },
-  {
-    id: 4,
-    title: "Sustainable Tech: Green Gadgets",
-    excerpt: "How eco-friendly technology is changing the way we consume electronics.",
-    category: "Lifestyle",
-    date: "December 5, 2023",
-    slug: "sustainable-tech-green-gadgets",
-  },
-  {
-    id: 5,
-    title: "The Rise of Smart Homes",
-    excerpt: "Automating your living space has never been easier with these new smart home devices.",
-    category: "Technology",
-    date: "December 12, 2023",
-    slug: "rise-of-smart-homes",
-  },
-  {
-    id: 6,
-    title: "Digital Nomad Lifestyle Guide",
-    excerpt: "Everything you need to know about working remotely while traveling the world.",
-    category: "Travel",
-    date: "January 8, 2024",
-    slug: "digital-nomad-guide",
-  },
-  {
-    id: 7,
-    title: "Spring Health: Weight Loss and Fitness Guide",
-    excerpt: "Spring’s warmer days and longer light offer a perfect opportunity to kickstart healthier habits. Losing excess weight and getting fitter can yield major health benefits",
-    category: "Health",
-    date: "March 1, 2026",
-    slug: "spring-weight-loss-guide",
-  },
-];
+import { ALL_ARTICLES } from "../lib/articles";
 
 export default function ArticlesPage() {
   return (
@@ -84,7 +25,7 @@ export default function ArticlesPage() {
         </div>
         
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {ARTICLES.map((article) => (
+          {ALL_ARTICLES.map((article) => (
             <Link 
               key={article.id} 
               href={`/articles/${article.slug}`}
