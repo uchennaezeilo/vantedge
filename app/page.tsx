@@ -35,7 +35,7 @@ export default function Home() {
 
         {/* Featured Grid */}
         <section className="w-full max-w-5xl px-6 py-10">
-          <h2 className="text-2xl font-semibold mb-6">Top Picks This Month</h2>
+          <h2 className="text-2xl font-semibold mb-6">Explore Our Top Picks</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {PRODUCTS.map((product) => (
               <ProductCard
