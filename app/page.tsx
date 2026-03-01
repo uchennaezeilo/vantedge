@@ -10,6 +10,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto flex justify-between items-center">
           <div className="font-bold text-xl">Vantedge</div>
           <nav className="hidden sm:flex gap-4 text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            <Link href="/articles" className="hover:text-black dark:hover:text-white">Articles</Link>
             <a href="#" className="hover:text-black dark:hover:text-white">Reviews</a>
             <a href="#" className="hover:text-black dark:hover:text-white">Comparisons</a>
             <a href="#" className="hover:text-black dark:hover:text-white">Deals</a>
