@@ -1,0 +1,1 @@
+export const content = `<p class="text-lg">This is a placeholder for the article <strong>digital-nomad-guide</strong>. In a real application, you would fetch this content from your database.</p>`;
