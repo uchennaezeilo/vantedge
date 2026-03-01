@@ -21,11 +21,10 @@ export default function Home() {
         {/* Hero Section */}
         <section className="w-full max-w-5xl py-20 px-6 text-center">
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tight mb-6">
-            Find the Best Tools for Your Workflow
+            Discover the Best Products for Your Life and Business
           </h1>
           <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto mb-8">
-            We test, review, and compare the top software and gadgets so you don't have to. 
-            Save time and money with our expert guides.
+            We hunt down, test, and compare the top-rated products across Amazon, ClickBank, and beyond. From trending lifestyle essentials to exclusive digital solutions, get the honest truth before you buy.
           </p>
           
           {/* Affiliate Disclosure */}
