@@ -5,6 +5,7 @@ import { content as greenGadgetsContent } from "./articles/sustainable-tech-gree
 import { content as smartHomesContent } from "./articles/rise-of-smart-homes";
 import { content as digitalNomadContent } from "./articles/digital-nomad-guide";
 import { content as springWeightLossContent } from "./articles/spring-weight-loss-guide";
+import { content as springFitnessContent } from "./articles/spring-fitness-exercise-tips";
 
 export const ALL_ARTICLES = [ 
   {
@@ -69,5 +70,14 @@ export const ALL_ARTICLES = [
     date: "March 1, 2026",
     slug: "spring-weight-loss-guide",
     content: springWeightLossContent
+  },
+  {
+    id: 8,
+    title: "Spring Fitness: Exercise Tips & Gear",
+    excerpt: "With weight loss on track, boosting overall fitness completes the picture. Regular exercise strengthens your heart, muscles and mood.",
+    category: "Fitness",
+    date: "March 8, 2026",
+    slug: "spring-fitness-exercise-tips",
+    content: springFitnessContent
   },
 ];
