@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const ARTICLES = [
+
   {
     id: 1,
     title: "The Future of AI in 2024",
@@ -48,6 +49,14 @@ const ARTICLES = [
     category: "Travel",
     date: "January 8, 2024",
     slug: "digital-nomad-guide",
+  },
+  {
+    id: 7,
+    title: "Spring Health: Weight Loss and Fitness Guide",
+    excerpt: "Spring’s warmer days and longer light offer a perfect opportunity to kickstart healthier habits. Losing excess weight and getting fitter can yield major health benefits",
+    category: "Health",
+    date: "March 1, 2026",
+    slug: "spring-weight-loss-guide",
   },
 ];
 
