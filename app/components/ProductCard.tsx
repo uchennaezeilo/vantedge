@@ -19,7 +19,7 @@ export function ProductCard({ title, description, href }: ProductCardProps) {
         {description}
       </p>
       <Link href={href} className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
-        Read Review &rarr;
+        Read more &rarr;
       </Link>
     </div>
   );
