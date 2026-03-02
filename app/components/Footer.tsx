@@ -16,6 +16,7 @@ export default function Footer() {
       <div className="space-x-4">
         <a href="/privacy-policy" className="underline">Privacy Policy</a>
         <a href="/terms" className="underline">Terms & Conditions</a>
+        <a href="/contact" className="underline">Contact Us</a>
         <button onClick={resetConsent} className="underline">
           Cookie Preferences
         </button>
