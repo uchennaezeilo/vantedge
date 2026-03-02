@@ -25,6 +25,7 @@ export default function ArticlesPage() {
         </div>
         
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          'To help us provide you with free unbiased expert advice, we may earn a commission if you buy through links on our site.'
           {ALL_ARTICLES.map((article) => (
             <Link 
               key={article.id} 
