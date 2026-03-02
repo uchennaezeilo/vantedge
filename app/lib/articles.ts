@@ -8,19 +8,7 @@ import { content as springWeightLossContent } from "./articles/spring-weight-los
 import { content as springFitnessContent } from "./articles/spring-fitness-exercise-tips";
 import { content as aiRevolutionContent } from "./articles/ai-revolution-preparing-for-tomorrow";
 
-export interface Article {
-  id: number;
-  title: string;
-  excerpt: string;
-  category: string;
-  date: string;
-  slug: string;
-  heroImage?: string;
-  heroImageAlt?: string;
-  content: string;
-}
-
-export const ALL_ARTICLES: Article[] = [ 
+export const ALL_ARTICLES = [ 
   {
     id: 1,
     title: "The Future of AI in 2024",
@@ -100,8 +88,6 @@ export const ALL_ARTICLES: Article[] = [
     category: "Technology",
     date: "Mar 2, 2026",
     slug: "ai-revolution-preparing-for-tomorrow",
-    heroImage: "/images/ai-revolution-hero.jpg",
-    heroImageAlt: "An abstract image of a robot hand and a human hand about to touch, representing the connection between humanity and AI.",
     content: aiRevolutionContent
   },
 
