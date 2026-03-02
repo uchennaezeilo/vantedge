@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { ALL_ARTICLES } from "../../lib/articles";
 
 export function generateStaticParams() {
@@ -8,9 +9,8 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const article = ALL_ARTICLES.find((a) => a.slug === slug);
+export default function ArticlePage({ params }: { params: { slug: string } }) {
+  const article = ALL_ARTICLES.find((a) => a.slug === params.slug);
 
   if (!article) {
     notFound();
@@ -46,6 +46,20 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="text-xs text-zinc-500 dark:text-zinc-500 bg-zinc-100 dark:bg-zinc-900 py-2 px-4 rounded-full inline-block mb-8">
             To help us provide you with free unbiased expert advice, we may earn a commission if you buy through links on our site.
           </div>
+
+          {article.heroImage && (
+            <figure className="my-8">
+              <Image
+                src={article.heroImage}
+                alt={article.heroImageAlt || 'Article hero image'}
+                width={1920}
+                height={1080}
+                sizes="100vw"
+                className="w-full h-auto rounded-lg shadow-lg object-cover aspect-video"
+                priority
+              />
+            </figure>
+          )}
 
           <div className="prose dark:prose-invert max-w-none">
             <p className="lead text-lg text-zinc-600 dark:text-zinc-300">{article.excerpt}</p>
