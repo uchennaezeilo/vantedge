@@ -6,6 +6,7 @@ import { content as smartHomesContent } from "./articles/rise-of-smart-homes";
 import { content as digitalNomadContent } from "./articles/digital-nomad-guide";
 import { content as springWeightLossContent } from "./articles/spring-weight-loss-guide";
 import { content as springFitnessContent } from "./articles/spring-fitness-exercise-tips";
+import { content as aiRevolutionContent } from "./articles/ai-revolution-preparing-for-tomorrow";
 
 export const ALL_ARTICLES = [ 
   {
@@ -80,4 +81,15 @@ export const ALL_ARTICLES = [
     slug: "spring-fitness-exercise-tips",
     content: springFitnessContent
   },
+  {
+    id: 9,
+    title: "The AI Revolution: Preparing for Tomorrow Today",
+    excerpt: "The march of artificial intelligence (AI) is accelerating, reshaping work, learning and daily life. Governments and experts warn that AI will touch nearly every field.",
+    category: "Technology",
+    date: "Mar 2, 2026",
+    slug: "ai-revolution-preparing-for-tomorrow",
+    content: aiRevolutionContent
+  },
+
+
 ];
