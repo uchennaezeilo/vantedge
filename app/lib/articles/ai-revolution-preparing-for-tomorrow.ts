@@ -4,6 +4,14 @@ export const content = `
       The AI Revolution: Preparing for Tomorrow Today  
     </h1>
     
+    <figure class="my-8">
+      <img 
+        class="w-full rounded-lg shadow-lg object-cover aspect-video" 
+        src="https://images.unsplash.com/photo-1620712943543-2858200f7426?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+        alt="An abstract image of a robot hand and a human hand about to touch, representing the connection between humanity and AI."
+      />
+    </figure>
+
     <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
       <p>
         The march of artificial intelligence (AI) is accelerating, reshaping work, learning and daily life. Governments and experts warn that AI will touch nearly every field. In the UK, a new initiative aims to train 10 million workers by 2030 with basic AI skills, reflecting ambitions to make Britain the fastest AI adopter in the G7. (This kind of free training covers simple tasks like using AI to draft text or create images.) Globally, reports forecast that millions of jobs will be transformed – one analysis predicts 11 million new jobs created and 9 million displaced by AI over the next few years. For perspective, one study even found that “up to 80% of U.S. workers” could have at least some tasks affected by AI models. In short, AI is coming fast and wide – and individuals who understand it will thrive.
