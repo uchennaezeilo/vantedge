@@ -19,13 +19,15 @@ export default function ArticlesPage() {
       <main className="max-w-5xl mx-auto px-6 py-10 w-full">
         <div className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight mb-2">Articles</h1>
-          <p className="text-zinc-600 dark:text-zinc-400">
+          <p className="text-zinc-600 dark:text-zinc-400 mb-6">
             Latest news, guides, and insights from our team.
           </p>
+          <div className="text-xs text-zinc-500 dark:text-zinc-500 bg-zinc-100 dark:bg-zinc-900 py-2 px-4 rounded-full inline-block">
+            To help us provide you with free unbiased expert advice, we may earn a commission if you buy through links on our site.
+          </div>
         </div>
         
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          'To help us provide you with free unbiased expert advice, we may earn a commission if you buy through links on our site.'
           {ALL_ARTICLES.map((article) => (
             <Link 
               key={article.id} 
