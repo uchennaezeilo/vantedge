@@ -90,5 +90,5 @@ export const content = `
         </p>
       </div>
     </article>
-  );
-}`;
+  
+`;
