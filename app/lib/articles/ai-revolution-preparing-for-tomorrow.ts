@@ -1,7 +1,7 @@
 export const content = `
   <article class="container mx-auto px-4 py-12 max-w-4xl">
     <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-      The AI Revolution: Preparing for Tomorrow Today
+      The AI Revolution: Preparing for Tomorrow Today  
     </h1>
     
     <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
