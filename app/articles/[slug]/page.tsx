@@ -36,6 +36,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             &larr; Back to Articles
           </Link>
           
+          {article.image && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={article.image}
+              alt={article.title}
+              className="w-full h-64 object-cover rounded mb-6"
+            />
+          )}
+
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">{article.title}</h1>
           
           <div className="flex items-center gap-4 text-sm text-zinc-500 dark:text-zinc-400 mb-6">
