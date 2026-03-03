@@ -19,12 +19,12 @@ export const PRODUCTS: Product[] = [
     image: "/images/AI-Revolution.jpg",
   },
   {
-    slug: "gadget-pro-x",
-    title: "Gadget Pro X",
-    description: "A comprehensive look at the features that make this gadget stand out.",
-    href: "/reviews/gadget-pro-x",
+    slug: "spring-weight-loss-guide",
+    title: "Spring Health: Weight Loss and Fitness Guide",
+    description: "Spring’s warmer days and longer light offer a perfect opportunity to kickstart healthier habits.",
+    href: "/articles/spring-weight-loss-guide",
     affiliateLink: "https://amazon.com/dp/example",
-    content: "Gadget Pro X is the latest innovation in tech. It features a 5000mAh battery, OLED display, and a rugged design. In our stress tests, it survived drops from 5 feet without a scratch.",
+    content: "Spring’s warmer days and longer light offer a perfect opportunity to kickstart healthier habits. Losing excess weight and getting fitter can yield major health benefits, including improved heart health, better sleep, and increased energy. This guide provides practical tips for weight loss, including diet recommendations, exercise routines, and lifestyle changes to help you achieve your health goals this spring.",
     image: "/images/AI-Revolution.jpg",
   },
   {
