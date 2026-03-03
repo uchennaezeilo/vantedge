@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
     href: "/reviews/hosting-service-y",
     affiliateLink: "https://hosting-y.com/ref/vantedge",
     content: "We monitored Hosting Service Y for 30 days. The uptime was 99.99% and the server response time averaged 200ms. Customer support responded to our ticket within 15 minutes.",
-    image: "/images/AI-Revolution.jpg",
+    image: "/images/Product-review.jpg",
   },
 ];
 
