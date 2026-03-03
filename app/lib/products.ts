@@ -5,6 +5,7 @@ export interface Product {
   href: string;
   affiliateLink: string;
   content: string;
+  image?: string;
 }
 
 export const PRODUCTS: Product[] = [
@@ -15,6 +16,7 @@ export const PRODUCTS: Product[] = [
     href: "/articles/ai-revolution-preparing-for-tomorrow",
     affiliateLink: "https://example.com/buy/ai-revolution",
     content: "This is a detailed review of The AI Revolution: Preparing for Tomorrow Today. It has great features for understanding AI trends, preparing for job changes, and leveraging new tools. We found the content to be comprehensive and the insights valuable for anyone looking to stay ahead in the AI-driven world.",
+    image: "/images/AI-Revolution.jpg",
   },
   {
     slug: "gadget-pro-x",
@@ -23,6 +25,7 @@ export const PRODUCTS: Product[] = [
     href: "/reviews/gadget-pro-x",
     affiliateLink: "https://amazon.com/dp/example",
     content: "Gadget Pro X is the latest innovation in tech. It features a 5000mAh battery, OLED display, and a rugged design. In our stress tests, it survived drops from 5 feet without a scratch.",
+    image: "/images/AI-Revolution.jpg",
   },
   {
     slug: "hosting-service-y",
@@ -31,6 +34,7 @@ export const PRODUCTS: Product[] = [
     href: "/reviews/hosting-service-y",
     affiliateLink: "https://hosting-y.com/ref/vantedge",
     content: "We monitored Hosting Service Y for 30 days. The uptime was 99.99% and the server response time averaged 200ms. Customer support responded to our ticket within 15 minutes.",
+    image: "/images/AI-Revolution.jpg",
   },
 ];
 

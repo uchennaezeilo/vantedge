@@ -16,7 +16,8 @@ export const ALL_ARTICLES = [
     category: "Technology",
     date: "October 15, 2023",
     slug: "future-of-ai-2024",
-    content: futureOfAiContent
+    content: futureOfAiContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 2,
@@ -25,7 +26,8 @@ export const ALL_ARTICLES = [
     category: "Business",
     date: "November 2, 2023",
     slug: "top-10-productivity-tools",
-    content: top10ProductivityContent
+    content: top10ProductivityContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 3,
@@ -34,7 +36,8 @@ export const ALL_ARTICLES = [
     category: "Science",
     date: "November 20, 2023",
     slug: "understanding-quantum-computing",
-    content: quantumComputingContent
+    content: quantumComputingContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 4,
@@ -43,7 +46,8 @@ export const ALL_ARTICLES = [
     category: "Lifestyle",
     date: "December 5, 2023",
     slug: "sustainable-tech-green-gadgets",
-    content: greenGadgetsContent
+    content: greenGadgetsContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 5,
@@ -52,7 +56,8 @@ export const ALL_ARTICLES = [
     category: "Technology",
     date: "December 12, 2023",
     slug: "rise-of-smart-homes",
-    content: smartHomesContent
+    content: smartHomesContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 6,
@@ -61,7 +66,8 @@ export const ALL_ARTICLES = [
     category: "Travel",
     date: "January 8, 2024",
     slug: "digital-nomad-guide",
-    content: digitalNomadContent
+    content: digitalNomadContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 7,
@@ -70,7 +76,8 @@ export const ALL_ARTICLES = [
     category: "Health",
     date: "March 1, 2026",
     slug: "spring-weight-loss-guide",
-    content: springWeightLossContent
+    content: springWeightLossContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 8,
@@ -79,7 +86,8 @@ export const ALL_ARTICLES = [
     category: "Fitness",
     date: "March 8, 2026",
     slug: "spring-fitness-exercise-tips",
-    content: springFitnessContent
+    content: springFitnessContent,
+    image: "/images/AI-Revolution.jpg"
   },
   {
     id: 9,
@@ -88,7 +96,8 @@ export const ALL_ARTICLES = [
     category: "Technology",
     date: "Mar 2, 2026",
     slug: "ai-revolution-preparing-for-tomorrow",
-    content: aiRevolutionContent
+    content: aiRevolutionContent,
+    image: "/images/AI-Revolution.jpg"
   },
 
 

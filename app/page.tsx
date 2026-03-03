@@ -44,6 +44,7 @@ export default function Home() {
                 title={product.title}
                 description={product.description}
                 href={product.href}
+                image={product.image}
               />
             ))}
           </div>
