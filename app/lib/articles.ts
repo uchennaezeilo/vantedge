@@ -77,7 +77,7 @@ export const ALL_ARTICLES = [
     date: "March 1, 2026",
     slug: "spring-weight-loss-guide",
     content: springWeightLossContent,
-    image: "/images/AI-Revolution.jpg"
+    image: "/images/Spring-fitness.jpg"
   },
   {
     id: 8,
@@ -87,7 +87,7 @@ export const ALL_ARTICLES = [
     date: "March 8, 2026",
     slug: "spring-fitness-exercise-tips",
     content: springFitnessContent,
-    image: "/images/AI-Revolution.jpg"
+    image: "/images/Spring-fitness.jpg"
   },
   {
     id: 9,

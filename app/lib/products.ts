@@ -25,7 +25,7 @@ export const PRODUCTS: Product[] = [
     href: "/articles/spring-weight-loss-guide",
     affiliateLink: "https://amazon.com/dp/example",
     content: "Spring’s warmer days and longer light offer a perfect opportunity to kickstart healthier habits. Losing excess weight and getting fitter can yield major health benefits, including improved heart health, better sleep, and increased energy. This guide provides practical tips for weight loss, including diet recommendations, exercise routines, and lifestyle changes to help you achieve your health goals this spring.",
-    image: "/images/AI-Revolution.jpg",
+    image: "/images/Spring-fitness.jpg",
   },
   {
     slug: "hosting-service-y",
