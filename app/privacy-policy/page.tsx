@@ -22,8 +22,8 @@ export default function PrivacyPolicyPage() {
            PRIVACY POLICY
 
 Privacy Policy for Vantedge
-Effective Date: [Insert Date]
-Last Updated: [Insert Date]
+Effective Date: [28 February, 2026]
+Last Updated: [4 March, 2026]
 
 1. Who We Are
 
