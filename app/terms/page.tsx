@@ -18,124 +18,91 @@ export default function TermsAndConditionsPage() {
       <main className="max-w-3xl mx-auto py-12 px-6">
         <h1 className="text-3xl font-bold mb-6">Terms and Conditions</h1>
         <div className="prose dark:prose-invert max-w-none text-zinc-700 dark:text-zinc-300">
-          <p className="mb-4">
-           Terms and Conditions of Use
-Effective Date: [28 February, 2026]
-Last Updated: [4 March, 2026]
+          <p>Effective Date: [28 February, 2026]</p>
+          <p>Last Updated: [4 March, 2026]</p>
 
-1. Acceptance
+          <h2>1. Acceptance</h2>
+          <p>By accessing vantedge.uk, you agree to these Terms and Conditions.</p>
+          <p>If you do not agree, you must discontinue use.</p>
 
-By accessing vantedge.uk, you agree to these Terms and Conditions.
+          <h2>2. Business Information</h2>
+          <p>Vantedge is operated by:</p>
+          <ul>
+            <li>Uchenna Ezeilo</li>
+            <li>Sole Trader</li>
+            <li>Email: hello@vantedge.uk</li>
+          </ul>
 
-If you do not agree, you must discontinue use.
+          <h2>3. Intellectual Property</h2>
+          <p>All content on this website is owned by Vantedge unless otherwise stated.</p>
+          <p>You may not:</p>
+          <ul>
+            <li>Reproduce</li>
+            <li>Distribute</li>
+            <li>Republish</li>
+            <li>Modify</li>
+          </ul>
+          <p>without written permission.</p>
+          <p>© {new Date().getFullYear()} Vantedge. All rights reserved.</p>
 
-2. Business Information
+          <h2>4. Informational Purposes Only</h2>
+          <p>Content is provided for general educational purposes only.</p>
+          <p>It does not constitute professional, medical, legal, or financial advice.</p>
 
-Vantedge is operated by:
+          <h2>5. Health & Wellness Disclaimer</h2>
+          <p>Any health, fitness, nutrition, or wellbeing content:</p>
+          <ul>
+            <li>Is for informational purposes only</li>
+            <li>Is not medical advice</li>
+            <li>Does not diagnose, treat, cure, or prevent any disease</li>
+          </ul>
+          <p>You must consult a qualified healthcare professional before making changes to:</p>
+          <ul>
+            <li>Diet</li>
+            <li>Exercise</li>
+            <li>Medication</li>
+            <li>Treatment plans</li>
+          </ul>
 
-Uchenna Ezeilo
-Sole Trader
-Email: hello@vantedge.uk
+          <h2>6. Affiliate Disclosure</h2>
+          <p>This website participates in affiliate marketing programs including:</p>
+          <ul>
+            <li>Amazon Associates</li>
+            <li>CJ Affiliate</li>
+            <li>ClickBank</li>
+          </ul>
+          <p>We may earn commissions on qualifying purchases at no additional cost to you.</p>
+          <p>Affiliate links do not influence our editorial integrity.</p>
 
-3. Intellectual Property
+          <h2>7. No Guarantees</h2>
+          <p>We make no warranties regarding:</p>
+          <ul>
+            <li>Accuracy</li>
+            <li>Completeness</li>
+            <li>Reliability</li>
+            <li>Results</li>
+          </ul>
+          <p>Use of the website is at your own risk.</p>
 
-All content on this website is owned by Vantedge unless otherwise stated.
+          <h2>8. Limitation of Liability</h2>
+          <p>To the fullest extent permitted by law, Vantedge shall not be liable for:</p>
+          <ul>
+            <li>Direct or indirect loss</li>
+            <li>Consequential damages</li>
+            <li>Loss of profits</li>
+            <li>Health outcomes</li>
+            <li>Reliance on content</li>
+          </ul>
 
-You may not:
+          <h2>9. External Links</h2>
+          <p>We are not responsible for the content or practices of third-party websites.</p>
 
-Reproduce
+          <h2>10. Governing Law</h2>
+          <p>These Terms are governed by the laws of England and Wales.</p>
 
-Distribute
+          <h2>11. Changes</h2>
+          <p>We reserve the right to update these Terms at any time.</p>
 
-Republish
-
-Modify
-
-without written permission.
-
-© [Year] Vantedge. All rights reserved.
-
-4. Informational Purposes Only
-
-Content is provided for general educational purposes only.
-
-It does not constitute professional, medical, legal, or financial advice.
-
-5. Health & Wellness Disclaimer
-
-Any health, fitness, nutrition, or wellbeing content:
-
-Is for informational purposes only
-
-Is not medical advice
-
-Does not diagnose, treat, cure, or prevent any disease
-
-You must consult a qualified healthcare professional before making changes to:
-
-Diet
-
-Exercise
-
-Medication
-
-Treatment plans
-
-6. Affiliate Disclosure
-
-This website participates in affiliate marketing programs including:
-
-Amazon Associates
-
-CJ Affiliate
-
-ClickBank
-
-We may earn commissions on qualifying purchases at no additional cost to you.
-
-Affiliate links do not influence our editorial integrity.
-
-7. No Guarantees
-
-We make no warranties regarding:
-
-Accuracy
-
-Completeness
-
-Reliability
-
-Results
-
-Use of the website is at your own risk.
-
-8. Limitation of Liability
-
-To the fullest extent permitted by law, Vantedge shall not be liable for:
-
-Direct or indirect loss
-
-Consequential damages
-
-Loss of profits
-
-Health outcomes
-
-Reliance on content
-
-9. External Links
-
-We are not responsible for the content or practices of third-party websites.
-
-10. Governing Law
-
-These Terms are governed by the laws of England and Wales.
-
-11. Changes
-
-We reserve the right to update these Terms at any time.
-          </p>
-          
           <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this Terms and Conditions, please contact us:
@@ -145,10 +112,6 @@ We reserve the right to update these Terms at any time.
               By phone: <a href="tel:+447557023397" className="text-blue-600 hover:underline">+44 7557 023397</a>
             </li>
           </ul>
-          
-          <p className="text-sm text-zinc-500 mt-8">
-            Last updated: {new Date().toLocaleDateString()}
-          </p>
         </div>
       </main>
     </div>
