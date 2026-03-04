@@ -18,190 +18,135 @@ export default function PrivacyPolicyPage() {
       <main className="max-w-3xl mx-auto py-12 px-6">
         <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
         <div className="prose dark:prose-invert max-w-none text-zinc-700 dark:text-zinc-300">
-          <p className="mb-4">
-           PRIVACY POLICY
+          <p>Effective Date: [28 February, 2026]</p>
+          <p>Last Updated: [4 March, 2026]</p>
+
+          <h2>1. Who We Are</h2>
+          <p>Vantedge is a UK-based sole trader business operated by:</p>
+          <ul>
+            <li>Uchenna Ezeilo</li>
+            <li>Trading as: Vantedge</li>
+            <li>Email: hello@vantedge.uk</li>
+          </ul>
+          <p>For the purposes of UK data protection law, Vantedge is the Data Controller of your personal data.</p>
+          <p>This policy complies with:</p>
+          <ul>
+            <li>UK General Data Protection Regulation (UK GDPR)</li>
+            <li>Data Protection Act 2018</li>
+            <li>Privacy and Electronic Communications Regulations (PECR)</li>
+          </ul>
+
+          <h2>2. Information We Collect</h2>
+          <h3>2.1 Information You Provide</h3>
+          <p>We may collect:</p>
+          <ul>
+            <li>Name</li>
+            <li>Email address</li>
+            <li>Information submitted via contact forms</li>
+            <li>Newsletter subscription details</li>
+          </ul>
+
+          <h3>2.2 Automatically Collected Information</h3>
+          <p>When you visit our website, we may collect:</p>
+          <ul>
+            <li>IP address</li>
+            <li>Browser type</li>
+            <li>Device information</li>
+            <li>Pages visited</li>
+            <li>Referring URLs</li>
+            <li>Interaction data</li>
+          </ul>
+          <p>This is collected via cookies and analytics tools.</p>
+
+          <h2>3. How We Use Your Data</h2>
+          <p>We use your personal data to:</p>
+          <ul>
+            <li>Send newsletters and updates (if you opt in)</li>
+            <li>Respond to enquiries</li>
+            <li>Improve website performance</li>
+            <li>Analyse user behaviour</li>
+            <li>Manage affiliate tracking</li>
+            <li>Comply with legal obligations</li>
+          </ul>
+
+          <h2>4. Legal Basis for Processing</h2>
+          <p>Under UK GDPR, we rely on:</p>
+          <ul>
+            <li><strong>Consent</strong> – for newsletters and marketing emails</li>
+            <li><strong>Legitimate Interest</strong> – for website analytics and improvements</li>
+            <li><strong>Legal Obligation</strong> – where required by law</li>
+          </ul>
+          <p>You may withdraw consent at any time.</p>
+
+          <h2>5. Email Marketing (Mailchimp)</h2>
+          <p>We use Mailchimp as our email marketing provider. When you subscribe:</p>
+          <ul>
+            <li>Your data is transferred to Mailchimp</li>
+            <li>Mailchimp processes data on our behalf</li>
+            <li>You can unsubscribe at any time via the link in every email</li>
+          </ul>
+          <p>We do not send marketing emails without explicit opt-in consent.</p>
+
+          <h2>6. Cookies & Tracking</h2>
+          <p>We use cookies for:</p>
+          <ul>
+            <li>Analytics (Google Analytics)</li>
+            <li>Affiliate tracking (Amazon, CJ Affiliate, ClickBank)</li>
+            <li>Essential website functionality</li>
+          </ul>
+          <p>Non-essential cookies are only activated after you provide consent via our cookie banner.</p>
+          <p>For more details, see our <Link href="/cookie-policy" className="text-blue-600 hover:underline">Cookie Policy</Link>.</p>
+
+          <h2>7. Affiliate Tracking</h2>
+          <p>We participate in affiliate programs including:</p>
+          <ul>
+            <li>Amazon Associates</li>
+            <li>CJ Affiliate</li>
+            <li>ClickBank</li>
+          </ul>
+          <p>These platforms may use cookies to track purchases and attribute commissions.</p>
+          <p>We do not receive access to your financial data.</p>
+
+          <h2>8. Data Sharing</h2>
+          <p>We may share limited data with:</p>
+          <ul>
+            <li>Mailchimp</li>
+            <li>Google Analytics</li>
+            <li>Affiliate platforms</li>
+            <li>Website hosting providers</li>
+          </ul>
+          <p>We do not sell your personal data.</p>
+
+          <h2>9. International Transfers</h2>
+          <p>Some third-party services may process data outside the UK. Where this occurs, safeguards such as Standard Contractual Clauses are used.</p>
+
+          <h2>10. Data Retention</h2>
+          <p>We retain personal data:</p>
+          <ul>
+            <li>Until you unsubscribe (newsletter)</li>
+            <li>As required for legal compliance</li>
+            <li>As necessary for business operations</li>
+          </ul>
+
+          <h2>11. Your Rights</h2>
+          <p>Under UK GDPR, you have the right to:</p>
+          <ul>
+            <li>Access your personal data</li>
+            <li>Request correction</li>
+            <li>Request deletion</li>
+            <li>Restrict processing</li>
+            <li>Object to processing</li>
+            <li>Withdraw consent</li>
+            <li>Lodge a complaint with the Information Commissioner’s Office (ICO)</li>
+          </ul>
+          <p>To exercise these rights, please email us at: <a href="mailto:hello@vantedge.uk" className="text-blue-600 hover:underline">hello@vantedge.uk</a></p>
+
+          <h2>12. Security</h2>
+          <p>We implement reasonable technical and organisational measures to protect your data. However, no online transmission is 100% secure.</p>
+
+          <h2>13. Changes to This Policy</h2>
+          <p>We may update this Privacy Policy periodically. Continued use of the site indicates acceptance of changes.</p>
 
-Privacy Policy for Vantedge
-Effective Date: [28 February, 2026]
-Last Updated: [4 March, 2026]
-
-1. Who We Are
-
-Vantedge is a UK-based sole trader business operated by:
-
-Uchenna Ezeilo
-Trading as: Vantedge
-Email: hello@vantedge.uk
-
-For the purposes of UK data protection law, Vantedge is the Data Controller of your personal data.
-
-This policy complies with:
-
-UK General Data Protection Regulation (UK GDPR)
-
-Data Protection Act 2018
-
-Privacy and Electronic Communications Regulations (PECR)
-
-2. Information We Collect
-2.1 Information You Provide
-
-We may collect:
-
-Name
-
-Email address
-
-Information submitted via contact forms
-
-Newsletter subscription details
-
-2.2 Automatically Collected Information
-
-When you visit our website, we may collect:
-
-IP address
-
-Browser type
-
-Device information
-
-Pages visited
-
-Referring URLs
-
-Interaction data
-
-This is collected via cookies and analytics tools.
-
-3. How We Use Your Data
-
-We use your personal data to:
-
-Send newsletters and updates (if you opt in)
-
-Respond to enquiries
-
-Improve website performance
-
-Analyse user behaviour
-
-Manage affiliate tracking
-
-Comply with legal obligations
-
-4. Legal Basis for Processing
-
-Under UK GDPR, we rely on:
-
-Consent – for newsletters and marketing emails
-
-Legitimate Interest – for website analytics and improvements
-
-Legal Obligation – where required by law
-
-You may withdraw consent at any time.
-
-5. Email Marketing (Mailchimp)
-
-We use Mailchimp as our email marketing provider.
-When you subscribe:
-
-Your data is transferred to Mailchimp
-
-Mailchimp processes data on our behalf
-
-You can unsubscribe at any time via the link in every email
-
-We do not send marketing emails without explicit opt-in consent.
-
-6. Cookies & Tracking
-
-We use cookies for:
-
-Analytics (Google Analytics)
-
-Affiliate tracking (Amazon, CJ Affiliate, ClickBank)
-
-Essential website functionality
-
-Non-essential cookies are only activated after you provide consent via our cookie banner.
-
-For more details, see our Cookie Policy.
-
-7. Affiliate Tracking
-
-We participate in affiliate programs including:
-
-Amazon Associates
-
-CJ Affiliate
-
-ClickBank
-
-These platforms may use cookies to track purchases and attribute commissions.
-
-We do not receive access to your financial data.
-
-8. Data Sharing
-
-We may share limited data with:
-
-Mailchimp
-
-Google Analytics
-
-Affiliate platforms
-
-Website hosting providers
-
-We do not sell your personal data.
-
-9. International Transfers
-
-Some third-party services may process data outside the UK.
-Where this occurs, safeguards such as Standard Contractual Clauses are used.
-
-10. Data Retention
-
-We retain personal data:
-
-Until you unsubscribe (newsletter)
-
-As required for legal compliance
-
-As necessary for business operations
-
-11. Your Rights
-
-Under UK GDPR, you have the right to:
-
-Access your personal data
-
-Request correction
-
-Request deletion
-
-Restrict processing
-
-Object to processing
-
-Withdraw consent
-
-Lodge a complaint with the Information Commissioner’s Office (ICO)
-
-To exercise rights:
-Email: hello@vantedge.uk
-
-12. Security
-
-We implement reasonable technical and organisational measures to protect your data. However, no online transmission is 100% secure.
-
-13. Changes to This Policy
-
-We may update this Privacy Policy periodically. Continued use of the site indicates acceptance of changes.
-          </p>
-          
           <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this Privacy Policy, please contact us:
@@ -211,10 +156,6 @@ We may update this Privacy Policy periodically. Continued use of the site indica
               By phone: <a href="tel:+447557023397" className="text-blue-600 hover:underline">+44 7557 023397</a>
             </li>
           </ul>
-          
-          <p className="text-sm text-zinc-500 mt-8">
-            Last updated: {new Date().toLocaleDateString()}
-          </p>
         </div>
       </main>
     </div>
