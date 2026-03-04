@@ -138,7 +138,7 @@ We reserve the right to update these Terms at any time.
           
           <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
-            If you have any questions about this Privacy Policy, please contact us:
+            If you have any questions about this Terms and Conditions, please contact us:
           </p>
           <ul className="list-disc pl-5 mb-4 space-y-2">
             <li>
