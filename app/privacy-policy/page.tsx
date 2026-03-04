@@ -71,11 +71,14 @@ export default function PrivacyPolicyPage() {
 
           <h2>4. Legal Basis for Processing</h2>
           <p>Under UK GDPR, we rely on:</p>
-          <ul>
-            <li><strong>Consent</strong> – for newsletters and marketing emails</li>
-            <li><strong>Legitimate Interest</strong> – for website analytics and improvements</li>
-            <li><strong>Legal Obligation</strong> – where required by law</li>
-          </ul>
+
+          <h4 className="font-semibold">Consent</h4>
+          <p>For newsletters and marketing emails.</p>
+          <h4 className="font-semibold">Legitimate Interest</h4>
+          <p>For website analytics and improvements.</p>
+          <h4 className="font-semibold">Legal Obligation</h4>
+          <p>Where required by law.</p>
+
           <p>You may withdraw consent at any time.</p>
 
           <h2>5. Email Marketing (Mailchimp)</h2>
