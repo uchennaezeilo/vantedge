@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
           <p>Effective Date: [28 February, 2026]</p>
           <p>Last Updated: [4 March, 2026]</p>
 
-          <h2>1. Who We Are</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">1. Who We Are</h2>
           <p>Vantedge is a UK-based sole trader business operated by:</p>
           <ul>
             <li>Uchenna Ezeilo</li>
@@ -36,8 +36,8 @@ export default function PrivacyPolicyPage() {
             <li>Privacy and Electronic Communications Regulations (PECR)</li>
           </ul>
 
-          <h2>2. Information We Collect</h2>
-          <h3>2.1 Information You Provide</h3>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">2. Information We Collect</h2>
+          <h3 className="text-xl font-bold mt-6 mb-3 text-zinc-900 dark:text-zinc-100">2.1 Information You Provide</h3>
           <p>We may collect:</p>
           <ul>
             <li>Name</li>
@@ -46,7 +46,7 @@ export default function PrivacyPolicyPage() {
             <li>Newsletter subscription details</li>
           </ul>
 
-          <h3>2.2 Automatically Collected Information</h3>
+          <h3 className="text-xl font-bold mt-6 mb-3 text-zinc-900 dark:text-zinc-100">2.2 Automatically Collected Information</h3>
           <p>When you visit our website, we may collect:</p>
           <ul>
             <li>IP address</li>
@@ -58,7 +58,7 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p>This is collected via cookies and analytics tools.</p>
 
-          <h2>3. How We Use Your Data</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">3. How We Use Your Data</h2>
           <p>We use your personal data to:</p>
           <ul>
             <li>Send newsletters and updates (if you opt in)</li>
@@ -69,19 +69,19 @@ export default function PrivacyPolicyPage() {
             <li>Comply with legal obligations</li>
           </ul>
 
-          <h2>4. Legal Basis for Processing</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">4. Legal Basis for Processing</h2>
           <p>Under UK GDPR, we rely on:</p>
 
-          <h4 className="font-semibold">Consent</h4>
+          <h4 className="text-lg font-semibold mt-4 mb-2 text-zinc-900 dark:text-zinc-100">Consent</h4>
           <p>For newsletters and marketing emails.</p>
-          <h4 className="font-semibold">Legitimate Interest</h4>
+          <h4 className="text-lg font-semibold mt-4 mb-2 text-zinc-900 dark:text-zinc-100">Legitimate Interest</h4>
           <p>For website analytics and improvements.</p>
-          <h4 className="font-semibold">Legal Obligation</h4>
+          <h4 className="text-lg font-semibold mt-4 mb-2 text-zinc-900 dark:text-zinc-100">Legal Obligation</h4>
           <p>Where required by law.</p>
 
           <p>You may withdraw consent at any time.</p>
 
-          <h2>5. Email Marketing (Mailchimp)</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">5. Email Marketing (Mailchimp)</h2>
           <p>We use Mailchimp as our email marketing provider. When you subscribe:</p>
           <ul>
             <li>Your data is transferred to Mailchimp</li>
@@ -90,7 +90,7 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p>We do not send marketing emails without explicit opt-in consent.</p>
 
-          <h2>6. Cookies & Tracking</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">6. Cookies & Tracking</h2>
           <p>We use cookies for:</p>
           <ul>
             <li>Analytics (Google Analytics)</li>
@@ -100,7 +100,7 @@ export default function PrivacyPolicyPage() {
           <p>Non-essential cookies are only activated after you provide consent via our cookie banner.</p>
           <p>For more details, see our <Link href="/cookie-policy" className="text-blue-600 hover:underline">Cookie Policy</Link>.</p>
 
-          <h2>7. Affiliate Tracking</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">7. Affiliate Tracking</h2>
           <p>We participate in affiliate programs including:</p>
           <ul>
             <li>Amazon Associates</li>
@@ -110,7 +110,7 @@ export default function PrivacyPolicyPage() {
           <p>These platforms may use cookies to track purchases and attribute commissions.</p>
           <p>We do not receive access to your financial data.</p>
 
-          <h2>8. Data Sharing</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">8. Data Sharing</h2>
           <p>We may share limited data with:</p>
           <ul>
             <li>Mailchimp</li>
@@ -120,10 +120,10 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p>We do not sell your personal data.</p>
 
-          <h2>9. International Transfers</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">9. International Transfers</h2>
           <p>Some third-party services may process data outside the UK. Where this occurs, safeguards such as Standard Contractual Clauses are used.</p>
 
-          <h2>10. Data Retention</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">10. Data Retention</h2>
           <p>We retain personal data:</p>
           <ul>
             <li>Until you unsubscribe (newsletter)</li>
@@ -131,7 +131,7 @@ export default function PrivacyPolicyPage() {
             <li>As necessary for business operations</li>
           </ul>
 
-          <h2>11. Your Rights</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">11. Your Rights</h2>
           <p>Under UK GDPR, you have the right to:</p>
           <ul>
             <li>Access your personal data</li>
@@ -144,13 +144,13 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p>To exercise these rights, please email us at: <a href="mailto:hello@vantedge.uk" className="text-blue-600 hover:underline">hello@vantedge.uk</a></p>
 
-          <h2>12. Security</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">12. Security</h2>
           <p>We implement reasonable technical and organisational measures to protect your data. However, no online transmission is 100% secure.</p>
 
-          <h2>13. Changes to This Policy</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">13. Changes to This Policy</h2>
           <p>We may update this Privacy Policy periodically. Continued use of the site indicates acceptance of changes.</p>
 
-          <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this Privacy Policy, please contact us:
           </p>
