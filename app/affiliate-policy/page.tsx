@@ -21,7 +21,7 @@ export default function AffiliatePolicyPage() {
           <p>Effective Date: [28 February, 2026]</p>
           <p>Last Updated: [4 March, 2026]</p>
 
-          <h2>Affiliate Disclosure</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Affiliate Disclosure</h2>
           <p>Vantedge participates in affiliate marketing programs. This means we may earn commissions when you click on our links and make purchases through the sites we link to. However, this comes at no additional cost to you.</p>
 
           <p>We are a part of several affiliate programs, including but not limited to:</p>
@@ -37,7 +37,7 @@ export default function AffiliatePolicyPage() {
 
           <p>Vantedge is a for-profit business, and these commissions help us to keep the site running and continue to produce high-quality content.</p>
           
-          <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this Affiliate Policy, please contact us:
           </p>

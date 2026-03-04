@@ -21,17 +21,17 @@ export default function CookiePolicyPage() {
           <p>Effective Date: [28 February, 2026]</p>
           <p>Last Updated: [4 March, 2026]</p>
 
-          <h2>1. What Are Cookies?</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">1. What Are Cookies?</h2>
           <p>Cookies are small text files stored on your device when you visit a website.</p>
 
-          <h2>2. Types of Cookies We Use</h2>
-          <h3>Strictly Necessary Cookies</h3>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">2. Types of Cookies We Use</h2>
+          <h3 className="text-xl font-bold mt-6 mb-3 text-zinc-900 dark:text-zinc-100">Strictly Necessary Cookies</h3>
           <p>Required for website functionality.</p>
 
-          <h3>Analytics Cookies</h3>
+          <h3 className="text-xl font-bold mt-6 mb-3 text-zinc-900 dark:text-zinc-100">Analytics Cookies</h3>
           <p>Used via Google Analytics to understand visitor behaviour.</p>
 
-          <h3>Affiliate Tracking Cookies</h3>
+          <h3 className="text-xl font-bold mt-6 mb-3 text-zinc-900 dark:text-zinc-100">Affiliate Tracking Cookies</h3>
           <p>Used by:</p>
           <ul>
             <li>Amazon Associates</li>
@@ -40,7 +40,7 @@ export default function CookiePolicyPage() {
           </ul>
           <p>These cookies track referrals and may remain active for a limited duration.</p>
 
-          <h2>3. Consent</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">3. Consent</h2>
           <p>Non-essential cookies are only placed after you:</p>
           <ul>
             <li>Click “Accept” on our cookie banner</li>
@@ -48,7 +48,7 @@ export default function CookiePolicyPage() {
           </ul>
           <p>You may withdraw consent at any time.</p>
 
-          <h2>4. Managing Cookies</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">4. Managing Cookies</h2>
           <p>You can:</p>
           <ul>
             <li>Adjust cookie settings via our consent tool</li>
@@ -56,7 +56,7 @@ export default function CookiePolicyPage() {
           </ul>
           <p>Disabling some cookies may affect website functionality.</p>
 
-          <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this Cookie Policy, please contact us:
           </p>

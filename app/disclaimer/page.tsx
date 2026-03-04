@@ -21,7 +21,7 @@ export default function DisclaimerPage() {
           <p>Effective Date: [28 February, 2026]</p>
           <p>Last Updated: [4 March, 2026]</p>
 
-          <h2>General Disclaimer</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">General Disclaimer</h2>
           <p>The information on vantedge.uk is provided for general informational purposes only.</p>
 
           <p>We do not provide:</p>
@@ -36,7 +36,7 @@ export default function DisclaimerPage() {
 
           <p>Use of this website is at your own risk.</p>
           
-          <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
             If you have any questions about this Disclaimer, please contact us:
           </p>
