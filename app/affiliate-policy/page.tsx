@@ -18,19 +18,24 @@ export default function AffiliatePolicyPage() {
       <main className="max-w-3xl mx-auto py-12 px-6">
         <h1 className="text-3xl font-bold mb-6">Affiliate Policy</h1>
         <div className="prose dark:prose-invert max-w-none text-zinc-700 dark:text-zinc-300">
-          <p className="mb-4">
-           Affiliate Disclosure
+          <p>Effective Date: [28 February, 2026]</p>
+          <p>Last Updated: [4 March, 2026]</p>
 
-Vantedge participates in affiliate marketing programs, including:
+          <h2>Affiliate Disclosure</h2>
+          <p>Vantedge participates in affiliate marketing programs. This means we may earn commissions when you click on our links and make purchases through the sites we link to. However, this comes at no additional cost to you.</p>
 
-Amazon Associates, CJ Affiliate, ClickBank and others which we may add from time to time.
+          <p>We are a part of several affiliate programs, including but not limited to:</p>
+          <ul>
+            <li>Amazon Associates</li>
+            <li>CJ Affiliate</li>
+            <li>ClickBank</li>
+          </ul>
 
-This means we may earn commissions when you click links and make purchases.
+          <p>We may add or remove affiliate programs from time to time.</p>
 
-There is no additional cost to you.
+          <p>Our participation in these programs does not influence the content, topics, or posts we publish. We are committed to providing honest and unbiased information. We only recommend products and services that we believe will provide value to our readers.</p>
 
-We only recommend products we believe may provide value.
-          </p>
+          <p>Vantedge is a for-profit business, and these commissions help us to keep the site running and continue to produce high-quality content.</p>
           
           <h2 className="text-xl font-semibold mt-8 mb-4 text-zinc-900 dark:text-zinc-100">Contact Us</h2>
           <p className="mb-4">
@@ -41,10 +46,6 @@ We only recommend products we believe may provide value.
               By phone: <a href="tel:+447557023397" className="text-blue-600 hover:underline">+44 7557 023397</a>
             </li>
           </ul>
-          
-          <p className="text-sm text-zinc-500 mt-8">
-            Last updated: {new Date().toLocaleDateString()}
-          </p>
         </div>
       </main>
     </div>
