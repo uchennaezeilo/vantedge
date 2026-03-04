@@ -153,6 +153,9 @@ export default function PrivacyPolicyPage() {
           </p>
           <ul className="list-disc pl-5 mb-4 space-y-2">
             <li>
+              By email: <a href="mailto:hello@vantedge.uk" className="text-blue-600 hover:underline">hello@vantedge.uk</a>
+            </li>
+            <li>
               By phone: <a href="tel:+447557023397" className="text-blue-600 hover:underline">+44 7557 023397</a>
             </li>
           </ul>
