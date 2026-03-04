@@ -21,7 +21,7 @@ export default function Footer() {
         <a href="/affiliate-policy" className="underline">Affiliate Policy</a>
         <a href="/contact" className="underline">Contact Us</a>
         <button onClick={resetConsent} className="underline">
-          Cookie Preferences
+          Reset Cookie Preferences
         </button>
       </div>
     </footer>
