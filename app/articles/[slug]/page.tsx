@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ALL_ARTICLES } from "../../lib/articles";
+import RelatedArticles from "../../components/RelatedArticles";
 
 export function generateStaticParams() {
   return ALL_ARTICLES.map((article) => ({
@@ -60,6 +61,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <p className="lead text-lg text-zinc-600 dark:text-zinc-300">{article.excerpt}</p>
             <div dangerouslySetInnerHTML={{ __html: article.content }} />
           </div>
+          {/* Sidebar with Related Articles */}
+                    <div className="lg:col-span-1">
+                      <RelatedArticles
+                        currentArticleId={article.id}
+                        currentCategory={article.category}
+                        allArticles={ALL_ARTICLES}
+                      />
+                    </div>
         </div>
       </main>
     </div>

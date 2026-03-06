@@ -7,7 +7,20 @@ import { content as digitalNomadContent } from "./articles/digital-nomad-guide";
 import { content as springWeightLossContent } from "./articles/spring-weight-loss-guide";
 import { content as springFitnessContent } from "./articles/spring-fitness-exercise-tips";
 import { content as aiRevolutionContent } from "./articles/ai-revolution-preparing-for-tomorrow";
+import { content as twentyFiveThoughtfulMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/25-thoughful-mothers-day-gifts-she-will-love";
+import { content as affordableMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/affordable-mothers-day-gifts-under-50";
+import { content as bestMothersDayGiftsForFitnessMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gift-for-fitness-loging-mums";
+import { content as bestMothersDayGiftsForGrandMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gift-for-grandmas";
+import { content as bestMothersDayGiftsForGardeningMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-gardening-mums";
+import { content as bestMothersDayGiftsForNewMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-new-moms";
+import { content as bestMothersDayGiftsForTechSavvyMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-tech-savvy-mums";
+import { content as bestMothersDayGiftsInTheUKContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-in-the-uk-2026";
+import { content as lastMinuteMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/last-minute-mothers-day-gifts-that-still-impresses";
+import { content as techGiftsForMumContent } from "./articles/mothers-day-gift-articles/tech-gifts-for-mum-on-mothers-day";
+import { content as uniqueMothersDayGiftIdeasContent } from "./articles/mothers-day-gift-articles/unique-mothers-day-gift-ideas";
+import { content as wellnessGiftsForMumContent } from "./articles/mothers-day-gift-articles/wellness-gifts-for-mum-on-mothers-day";
 
+ 
 export const ALL_ARTICLES = [ 
   {
     id: 1,
@@ -98,6 +111,126 @@ export const ALL_ARTICLES = [
     slug: "ai-revolution-preparing-for-tomorrow",
     content: aiRevolutionContent,
     image: "/images/AI-Revolution.jpg"
+  },
+  {
+    id: 10,
+    title: "25 Thoughtful Mother’s Day Gifts She Will Love",
+    excerpt: "... you know your mum best, so pick ones that match her style and passions.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "25-thoughful-mothers-day-gifts-she-will-love",
+    content: twentyFiveThoughtfulMothersDayGiftsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 11,
+    title: "Affordable Mother’s Day Gifts Under £50",
+    excerpt: "An affordable present with personal meaning can be more touching than something pricey.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "affordable-mothers-day-gifts-under-50",
+    content: affordableMothersDayGiftsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 12,
+    title: "Best Mother’s Day Gifts for Fitness-Loving Mums",
+    excerpt: "You admire her dedication to staying strong and energetic – now show her that you support her goals and wellbeing",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "best-mothers-day-gifts-for-fitness-loving-mums",
+    content: bestMothersDayGiftsForFitnessMumsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 13,
+    title: "Best Mother’s Day Gifts for Grandma",
+    excerpt: "Grandmothers hold a special place in our hearts as pillars of wisdom, love, and family tradition.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "best-mothers-day-gifts-for-grandma",
+    content: bestMothersDayGiftsForGrandMumsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 14,
+    title: "Best Mother’s Day Gifts for Gardening Mums",
+    excerpt: "For the green-thumbed mum in your life, these thoughtful gifts will inspire her passion for plants and nature.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "best-mothers-day-gifts-for-gardening mums",
+    content: bestMothersDayGiftsForGardeningMumsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 15,
+    title: "Best Mother’s Day Gifts for New Mums",
+    excerpt: ".... this Mother’s Day she deserves love and support more than ever",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "best-mothers-day-gifts-for-new-moms",
+    content: bestMothersDayGiftsForNewMumsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 16,
+    title: "Best Mother's Day Gifts for Tech-Savvy Mums",
+    excerpt: "Modern mums often juggle careers, families, and social lives – and they rely on technology to do it a",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "best-mothers-day-gifts-for-tech-savvy-mums",
+    content: bestMothersDayGiftsForTechSavvyMumsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 17,
+    title: "Best Mother’s Day Gifts in the UK 2026",
+    excerpt: "What’s trending? Traditional gestures remain cherished: greeting cards, flowers and family meals top the wish-list",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "best-mothers-day-gifts-in-the-uk-2026",
+    content: bestMothersDayGiftsInTheUKContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 18,
+    title: "Last-Minute Mother’s Day Gifts that Still Impress",
+    excerpt: "Looking for last-minute Mother’s Day gifts? Discover options that are sure to make her feel loved and appreciated.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "last-minute-mothers-day-gifts-that-still-impress",
+    content: lastMinuteMothersDayGiftsContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 19,
+    title: "Tech Gifts for Mum on Mother's Day",
+    excerpt: "Looking for tech gifts for mum this Mother's Day? Discover gadgets and devices that tech-savvy mums will love.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "tech-gifts-for-mum-on-mothers-day",
+    content: techGiftsForMumContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 20,
+    title: "Unique Mother’s Day Gift Ideas",
+    excerpt: "Looking for something different? These unique Mother’s Day gift ideas will make her feel truly special.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "unique-mothers-day-gift-ideas",
+    content: uniqueMothersDayGiftIdeasContent,
+    image: "/images/mothers-day.jpg"
+  },
+  {
+    id: 21,
+    title: "Wellness Gifts for Mum on Mother's Day",
+    excerpt: "Looking for wellness gifts for mum this Mother's Day? Discover products that will help her relax and recharge.",
+    category: "MothersDay",
+    date: "March 6, 2026",
+    slug: "wellness-gifts-for-mum-on-mothers-day",
+    content: wellnessGiftsForMumContent,
+    image: "/images/mothers-day.jpg"
   },
 
 

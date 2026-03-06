@@ -46,6 +46,7 @@ export default function ArticlesPage() {
               </p>
             </Link>
           ))}
+          
         </div>
       </main>
     </div>

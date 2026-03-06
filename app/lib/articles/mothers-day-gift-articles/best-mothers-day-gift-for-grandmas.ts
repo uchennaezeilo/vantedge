@@ -1,0 +1,14 @@
+export const content = `
+<h2 class="text-2xl font-bold mb-4 mt-8">Best Mother’s Day Gifts for Grandma    </h2>
+
+Grandmothers hold a special place in our hearts as pillars of wisdom, love, and family tradition. This Mother’s Day, honouring grandma is about cherishing memories and showing gratitude for the years she’s cared for you. She might not expect lavish presents – a simple but thoughtful token can mean the world. In fact, studies find that many people include grandmothers in Mother’s Day celebrations (around 8–9% of families do). Use this opportunity to make her feel celebrated and involved.
+
+Family Photo Keepsakes: Grandmas adore family photos. Create a beautiful photo album or a digital frame filled with pictures of grandchildren. A framed photo of you together or a collage of happy moments will bring smiles each time she sees it. (If she can’t get out easily, a photo blanket or cushion with family pictures can keep you close.)
+
+Cozy Comforts: Celebrate her warmth with gifts that pamper her at home. A soft knitted blanket, a pair of warm slippers, or a personalized tea mug can be accompanied by a bag of her favourite tea or coffee. Such cozy gifts say, “We want you to relax and feel loved.”
+
+Hobbies and Interests: Think of what she enjoys. If grandma loves to read, a large-print novel or an audio-book subscription is nice. If she gardens or knits, give high-quality tools: gardening gloves, a pretty planter, or luxury yarn. Even simple pleasures like a jigsaw puzzle featuring a family scene or a custom recipe book of family favourites can brighten her day.
+
+Handmade and Heartfelt: Sometimes the most meaningful gift is time together. Write her a loving card or poem, make a short video message from the kids, or bake her favourite cake. A family tea or dinner (in her garden or a video call if afar) can become a cherished tradition.
+
+No matter what you choose, the key is to make grandma feel treasured. Your affectionate words and presence will make her day as much as any object.`;

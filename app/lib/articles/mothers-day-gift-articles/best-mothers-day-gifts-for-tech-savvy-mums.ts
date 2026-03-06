@@ -1,0 +1,14 @@
+export const content = `
+<h2 class="text-2xl font-bold mb-4 mt-8">Best Mother’s Day Gifts for Tech Savvy Mums</h2>
+
+Modern mums often juggle careers, families, and social lives – and they rely on technology to do it all. For the tech-savvy mum who loves gadgets, a thoughtful tech gift can make her day easier or more enjoyable. Whether she’s organizing her calendar, staying in touch with family, or streaming her favourite shows, smart gifts show you recognize her cutting-edge side.
+
+Smart Home Devices: A voice-activated assistant (like Alexa or Google Home) can help her manage the household hands-free. Pair it with a smart speaker or smart light bulbs, so she can play music or set the mood with a voice command. These gifts bring convenience and a bit of fun tech to her daily routines.
+
+Entertainment Gadgets: Upgrade her relaxation time with tech she’ll love. Maybe a high-quality tablet or e-reader for reading books in bed, or a smartwatch with music storage so her workout tunes are always with her. If she enjoys cooking, a digital recipe tablet or a precision cooker for perfectly cooked meals shows you noticed her hobbies too.
+
+Communication and Connectivity: If family is spread out, tech can help. A digital photo frame that auto-updates with pictures you send to it keeps you close. A new high-quality webcam or a phone upgrade means clearer video chats with the kids and grandkids. (Today, 62% of UK gift-buyers shop online, so consider e-gift cards to her favourite tech store for instant options.)
+
+Unique Tech Accessories: Think charging stations with style, a sleek laptop bag or tablet stand, or even noise-cancelling headphones for some peaceful “me” time. For a personal touch, add a custom case with her monogram or a keychain that reflects her interests.
+
+Whatever you choose, the combination of usefulness and personalization is key. With technology integrated into so many aspects of life, a well-chosen tech gift will impress her and make her daily routine a bit smoother.`;
