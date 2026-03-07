@@ -72,7 +72,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             To help us provide you with free unbiased expert advice, we may earn a commission if you buy through links on our site.
           </div>
 
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose dark:prose-invert max-w-none article-content">
             <p className="lead text-lg text-zinc-600 dark:text-zinc-300">{article.excerpt}</p>
             <div dangerouslySetInnerHTML={{ __html: article.content }} />
           </div>

@@ -2,9 +2,20 @@ export const content = `
 <h2 class="text-2xl font-bold mb-4 mt-8">25 Thoughtful Mother’s Day Gifts She Will Love</h2>
 <p class="mb-6 text-zinc-700 dark:text-zinc-300">Finding the perfect gift means thinking of what makes your mum smile. We've gathered a wealth of ideas (far more than 25!) to spark your imagination – you know your mum best, so pick ones that match her style and passions:</p>
 <ol class="list-decimal space-y-4 mb-6 text-zinc-700 dark:text-zinc-300 pl-6">
-<li class="pl-2"><strong>Handwritten Letter or Poem:</strong> Never underestimate the power of words. Write down your gratitude, a favourite memory, or an "open when" letter bundle. This is free but priceless, and she'll keep it forever.</li>
+<li class="pl-2"><strong>Handwritten Letter or Poem:</strong> Never underestimate the power of words. Write down your gratitude, a favou rite memory, or an "open when" letter bundle. This is free but priceless, and she'll keep it forever.</li>
 <li class="pl-2"><strong>Family Photo Album or Frame:</strong> Collect candid family shots in a beautiful album, or frame a special photo of you with her. Each time she looks at it, she'll feel loved.</li>
 <li class="pl-2"><strong>Personalized Jewelry:</strong> A necklace or bracelet engraved with her initials, birthstone or children's names. These always feel "just for her."</li>
+</ol>
+<div class="mb-6 text-zinc-700 dark:text-zinc-300" >
+Jewelries for mother
+<ul>
+<li><a href="https://amzn.to/4lqrGfN" target="_blank" rel="noopener noreferrer">FANCIME mum birthstone necklace</a></li>
+<li><a href="https://amzn.to/4bhCo3L" target="_blank" rel="noopener noreferrer">DEPHINI - Jewellery Set Heart Necklaces with stud Earrings</a></li>
+<li><a href="https://amzn.to/4sxzDSS" target="_blank" rel="noopener noreferrer">DEPHINI Crystal Heart Necklace</a></li>
+<li><a href="https://amzn.to/3P6VxOa" target="_blank" rel="noopener noreferrer">Praelinos Angel Wing Heart Necklaces</a></li>
+</ul>
+</div>
+<ol class="list-decimal space-y-4 mb-6 text-zinc-700 dark:text-zinc-300 pl-6">
 <li class="pl-2"><strong>Homemade Treats:</strong> Bake her favourite cookies, jam, or bread. Present it in a pretty tin with a ribbon. It shows care and saves her from kitchen chores.</li>
 <li class="pl-2"><strong>DIY Coupon Book:</strong> Create coupons she can redeem: “One home-cooked dinner,” “One free car wash,” “Movie night of your choice,” etc. It’s a fun promise of future treats.</li>
 <li class="pl-2"><strong>Memory Journal:</strong> A blank diary or scrapbook where she can jot down thoughts or paste photos. You could start it by writing a first page for her.</li>

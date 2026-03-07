@@ -62,6 +62,19 @@
   text-decoration: none;
 }
 
+/* Dark mode support for links */
+@media (prefers-color-scheme: dark) {
+  .article-content a {
+    color: #63b3ed;
+    border-bottom-color: #3182ce;
+  }
+
+  .article-content a:hover {
+    color: #90cdf4;
+    border-bottom-color: #63b3ed;
+  }
+}
+
 .article-content strong {
   font-weight: 700;
 }
