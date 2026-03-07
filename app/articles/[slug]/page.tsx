@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ALL_ARTICLES } from "../../lib/articles";
 import RelatedArticles from "../../components/RelatedArticles";
+import "@/app/styles/article-formatting.css";
 
 export function generateStaticParams() {
   return ALL_ARTICLES.map((article) => ({

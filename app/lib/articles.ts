@@ -1,27 +1,38 @@
-import { content as futureOfAiContent } from "./articles/future-of-ai-2024";
-import { content as top10ProductivityContent } from "./articles/top-10-productivity-tools";
-import { content as quantumComputingContent } from "./articles/understanding-quantum-computing";
-import { content as greenGadgetsContent } from "./articles/sustainable-tech-green-gadgets";
-import { content as smartHomesContent } from "./articles/rise-of-smart-homes";
-import { content as digitalNomadContent } from "./articles/digital-nomad-guide";
-import { content as springWeightLossContent } from "./articles/spring-weight-loss-guide";
-import { content as springFitnessContent } from "./articles/spring-fitness-exercise-tips";
-import { content as aiRevolutionContent } from "./articles/ai-revolution-preparing-for-tomorrow";
-import { content as twentyFiveThoughtfulMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/25-thoughful-mothers-day-gifts-she-will-love";
+// Sorted imports for better readability and maintenance.
 import { content as affordableMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/affordable-mothers-day-gifts-under-50";
-import { content as bestMothersDayGiftsForFitnessMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gift-for-fitness-loging-mums";
-import { content as bestMothersDayGiftsForGrandMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gift-for-grandmas";
+import { content as aiRevolutionContent } from "./articles/ai-revolution-preparing-for-tomorrow";
+import { content as bestMothersDayGiftsForFitnessMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-fitness-loving-mums";
 import { content as bestMothersDayGiftsForGardeningMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-gardening-mums";
-import { content as bestMothersDayGiftsForNewMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-new-moms";
+import { content as bestMothersDayGiftsForGrandmaContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-grandma";
+import { content as bestMothersDayGiftsForNewMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-new-mums";
 import { content as bestMothersDayGiftsForTechSavvyMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-tech-savvy-mums";
 import { content as bestMothersDayGiftsInTheUKContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-in-the-uk-2026";
-import { content as lastMinuteMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/last-minute-mothers-day-gifts-that-still-impresses";
+import { content as digitalNomadContent } from "./articles/digital-nomad-guide";
+import { content as futureOfAiContent } from "./articles/future-of-ai-2024";
+import { content as greenGadgetsContent } from "./articles/sustainable-tech-green-gadgets";
+import { content as lastMinuteMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/last-minute-mothers-day-gifts-that-still-impress";
+import { content as quantumComputingContent } from "./articles/understanding-quantum-computing";
+import { content as smartHomesContent } from "./articles/rise-of-smart-homes";
+import { content as springFitnessContent } from "./articles/spring-fitness-exercise-tips";
+import { content as springWeightLossContent } from "./articles/spring-weight-loss-guide";
 import { content as techGiftsForMumContent } from "./articles/mothers-day-gift-articles/tech-gifts-for-mum-on-mothers-day";
+import { content as top10ProductivityContent } from "./articles/top-10-productivity-tools";
+import { content as twentyFiveThoughtfulMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/25-thoughtful-mothers-day-gifts-she-will-love";
 import { content as uniqueMothersDayGiftIdeasContent } from "./articles/mothers-day-gift-articles/unique-mothers-day-gift-ideas";
 import { content as wellnessGiftsForMumContent } from "./articles/mothers-day-gift-articles/wellness-gifts-for-mum-on-mothers-day";
 
- 
-export const ALL_ARTICLES = [ 
+export interface Article {
+  id: number;
+  title: string;
+  excerpt: string;
+  category: string;
+  date: string;
+  slug: string;
+  content: string;
+  image: string;
+}
+
+export const ALL_ARTICLES: Article[] = [
   {
     id: 1,
     title: "The Future of AI in 2024",
@@ -118,7 +129,7 @@ export const ALL_ARTICLES = [
     excerpt: "... you know your mum best, so pick ones that match her style and passions.",
     category: "MothersDay",
     date: "March 6, 2026",
-    slug: "25-thoughful-mothers-day-gifts-she-will-love",
+    slug: "25-thoughtful-mothers-day-gifts-she-will-love",
     content: twentyFiveThoughtfulMothersDayGiftsContent,
     image: "/images/mothers-day.jpg"
   },
@@ -149,7 +160,7 @@ export const ALL_ARTICLES = [
     category: "MothersDay",
     date: "March 6, 2026",
     slug: "best-mothers-day-gifts-for-grandma",
-    content: bestMothersDayGiftsForGrandMumsContent,
+    content: bestMothersDayGiftsForGrandmaContent,
     image: "/images/mothers-day.jpg"
   },
   {
@@ -158,7 +169,7 @@ export const ALL_ARTICLES = [
     excerpt: "For the green-thumbed mum in your life, these thoughtful gifts will inspire her passion for plants and nature.",
     category: "MothersDay",
     date: "March 6, 2026",
-    slug: "best-mothers-day-gifts-for-gardening mums",
+    slug: "best-mothers-day-gifts-for-gardening-mums",
     content: bestMothersDayGiftsForGardeningMumsContent,
     image: "/images/mothers-day.jpg"
   },
@@ -168,14 +179,14 @@ export const ALL_ARTICLES = [
     excerpt: ".... this Mother’s Day she deserves love and support more than ever",
     category: "MothersDay",
     date: "March 6, 2026",
-    slug: "best-mothers-day-gifts-for-new-moms",
+    slug: "best-mothers-day-gifts-for-new-mums",
     content: bestMothersDayGiftsForNewMumsContent,
     image: "/images/mothers-day.jpg"
   },
   {
     id: 16,
     title: "Best Mother's Day Gifts for Tech-Savvy Mums",
-    excerpt: "Modern mums often juggle careers, families, and social lives – and they rely on technology to do it a",
+    excerpt: "Modern mums often juggle careers, families, and social lives – and they rely on technology to do it all.",
     category: "MothersDay",
     date: "March 6, 2026",
     slug: "best-mothers-day-gifts-for-tech-savvy-mums",

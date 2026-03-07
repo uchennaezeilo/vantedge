@@ -1,0 +1,98 @@
+/* Import professional, readable fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap");
+
+/*
+ * This is the main container for your article content.
+ * By scoping styles to this class, we avoid conflicts with other parts of your site.
+ */
+.article-content {
+  /* Typography for readability */
+  font-family: "Merriweather", serif; /* A classic serif font for long-form reading */
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2d3748; /* A dark gray is often easier on the eyes than pure black */
+  max-width: 720px; /* Optimal reading width */
+  margin: 0 auto; /* Center the content column */
+}
+
+/* --- Headings --- */
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  font-family: "Lato", sans-serif; /* A clean, modern sans-serif for headings */
+  font-weight: 700;
+  margin-top: 2.25em;
+  margin-bottom: 1em;
+  line-height: 1.3;
+  color: #1a202c;
+}
+
+.article-content h1 {
+  font-size: 2.5rem; /* 40px */
+}
+
+.article-content h2 {
+  font-size: 2rem; /* 32px */
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.4em;
+}
+
+.article-content h3 {
+  font-size: 1.5rem; /* 24px */
+}
+
+/* --- Paragraphs & Text --- */
+.article-content p {
+  margin-bottom: 1.5em;
+}
+
+.article-content a {
+  color: #3182ce;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid #bee3f8;
+}
+
+.article-content a:hover {
+  color: #2b6cb0;
+  border-bottom-color: #63b3ed;
+  text-decoration: none;
+}
+
+.article-content strong {
+  font-weight: 700;
+}
+
+/* --- Lists --- */
+.article-content ul,
+.article-content ol {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+
+.article-content li {
+  margin-bottom: 0.75em;
+}
+
+/* --- Blockquotes --- */
+.article-content blockquote {
+  margin: 2em 0;
+  padding: 1em 1.5em;
+  border-left: 4px solid #63b3ed;
+  background-color: #f7fafc;
+  color: #4a5568;
+  font-style: italic;
+}
+
+/* --- Images --- */
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2.5em auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
