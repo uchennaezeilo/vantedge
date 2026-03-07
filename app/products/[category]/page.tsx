@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import Navigation from "../../components/Navigation";
 import { ALL_PRODUCTS, getProductsByCategory } from "../../lib/products-new";
 
 export function generateStaticParams() {
@@ -39,28 +40,7 @@ export default async function CategoryPage({
 
   return (
     <div className="min-h-screen bg-zinc-50 font-sans dark:bg-black text-zinc-900 dark:text-zinc-100">
-      {/* Header */}
-      <header className="w-full border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black p-4">
-        <div className="max-w-5xl mx-auto flex justify-between items-center">
-          <Link href="/" className="font-bold text-xl">
-            Vantedge
-          </Link>
-          <nav className="hidden sm:flex gap-4 text-sm font-medium text-zinc-600 dark:text-zinc-400">
-            <Link href="/articles" className="hover:text-black dark:hover:text-white">
-              Articles
-            </Link>
-            <Link href="/products" className="text-black dark:text-white font-semibold">
-              Products
-            </Link>
-            <a href="#" className="hover:text-black dark:hover:text-white">
-              Reviews
-            </a>
-            <a href="#" className="hover:text-black dark:hover:text-white">
-              Deals
-            </a>
-          </nav>
-        </div>
-      </header>
+      <Navigation />
 
       <main className="flex flex-col items-center w-full">
         {/* Breadcrumb */}
