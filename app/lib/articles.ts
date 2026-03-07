@@ -3,21 +3,21 @@ import { content as affordableMothersDayGiftsContent } from "./articles/mothers-
 import { content as aiRevolutionContent } from "./articles/ai-revolution-preparing-for-tomorrow";
 import { content as bestMothersDayGiftsForFitnessMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-fitness-loving-mums";
 import { content as bestMothersDayGiftsForGardeningMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-gardening-mums";
-import { content as bestMothersDayGiftsForGrandmaContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-grandma";
+import { content as bestMothersDayGiftsForGrandmaContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gift-for-grandmas";
 import { content as bestMothersDayGiftsForNewMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-new-mums";
 import { content as bestMothersDayGiftsForTechSavvyMumsContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-for-tech-savvy-mums";
 import { content as bestMothersDayGiftsInTheUKContent } from "./articles/mothers-day-gift-articles/best-mothers-day-gifts-in-the-uk-2026";
 import { content as digitalNomadContent } from "./articles/digital-nomad-guide";
 import { content as futureOfAiContent } from "./articles/future-of-ai-2024";
 import { content as greenGadgetsContent } from "./articles/sustainable-tech-green-gadgets";
-import { content as lastMinuteMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/last-minute-mothers-day-gifts-that-still-impress";
+import { content as lastMinuteMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/last-minute-mothers-day-gifts-that-still-impresses";
 import { content as quantumComputingContent } from "./articles/understanding-quantum-computing";
 import { content as smartHomesContent } from "./articles/rise-of-smart-homes";
 import { content as springFitnessContent } from "./articles/spring-fitness-exercise-tips";
 import { content as springWeightLossContent } from "./articles/spring-weight-loss-guide";
 import { content as techGiftsForMumContent } from "./articles/mothers-day-gift-articles/tech-gifts-for-mum-on-mothers-day";
 import { content as top10ProductivityContent } from "./articles/top-10-productivity-tools";
-import { content as twentyFiveThoughtfulMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/25-thoughtful-mothers-day-gifts-she-will-love";
+import { content as twentyFiveThoughtfulMothersDayGiftsContent } from "./articles/mothers-day-gift-articles/25-thoughful-mothers-day-gifts-she-will-love";
 import { content as uniqueMothersDayGiftIdeasContent } from "./articles/mothers-day-gift-articles/unique-mothers-day-gift-ideas";
 import { content as wellnessGiftsForMumContent } from "./articles/mothers-day-gift-articles/wellness-gifts-for-mum-on-mothers-day";
 
