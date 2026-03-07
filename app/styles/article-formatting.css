@@ -7,7 +7,7 @@
  */
 .article-content {
   /* Typography for readability */
-  font-family: "Merriweather", serif; /* A classic serif font for long-form reading */
+  font-family: "Verdana", sans-serif;
   font-size: 18px;
   line-height: 1.7;
   color: #2d3748; /* A dark gray is often easier on the eyes than pure black */
