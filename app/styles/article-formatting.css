@@ -7,7 +7,7 @@
  */
 .article-content {
   /* Typography for readability */
-  font-family: "Verdana", sans-serif;
+  font-family:  Arial;
   line-height: 1.7;
   color: #2d3748; /* A dark gray is often easier on the eyes than pure black */
   max-width: 720px; /* Optimal reading width */
